@@ -1,0 +1,140 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-link{
+    font-size: 14px;
+}
+.nav-link:hover{
+    border-bottom:2px solid #d45656;
+}
+#head-img{
+   position: absolute;
+
+   top:0;
+    
+    /* background-image: url(images/head.png) ;
+    background-repeat: no-repeat;
+    height:auto;
+    background-size: cover;
+    width: 100%;
+    height: 100%; */
+}
+#head-img{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+.links{
+
+padding: 10px;
+color: black;
+}
+.links:hover{
+    background-color: #d45656;
+    color: white;
+    text-decoration: none;
+
+}
+
+.head-dis{
+    padding: 15% 0% 11% 9%;
+    width: 55%;
+}
+.defo{
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 36px;
+}
+.own-spa{
+    font-size: 43px;
+    font-weight: bolder;
+    font-size: 43px;
+    font-weight: bolder;
+   
+
+}
+.discount{
+    color:#d45656;
+    font-size: 43px;
+    font-weight: bolder;
+}
+.shop-btn{
+    border: none;
+    padding: 10px 33px;
+    text-transform: uppercase;
+    background-color:#d45656;
+    color: white;
+}
+.product{
+    margin: 1px;
+    margin-bottom: 12px;
+    padding: 12px;
+    background-color: #F7F7F7;
+    border-radius: 6px;
+}
+.protuct-p
+{
+    margin-bottom: 12px;
+}
+.fa.fa-tag{
+color: black;
+font-size: 22px;
+}
+
+
+.my-card{
+    border:none !important;
+}
+.card{
+    border:none !important;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fa{
+color: black !important;
+color: black;
+font-size: 25px;
+
+}
+.fa.fa-thumbs-up{
+    font-size: 24px;
+}
+
+#yellow{
+    color: yellow !important;
+}
+#green{
+    color: green !important;
+}
+#blue{
+    color: blue !important;
+}
+#gray{
+    color: gray !important;
+}
+#red{
+    color:red !important;
+}
+#pink{
+    color: palevioletred !important;
+}
+#tomato{
+    color: tomato !important;
+}
+
+.price{
+    color: #d45656 !important;
+}
+
+
+@media (max-width: 425px) and (min-width:245px) {
+    .head-dis {
+        padding: 0% 0% 0% 0%;
+        width: 100%;
+  
+      }
+}
